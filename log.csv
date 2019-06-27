@@ -1,0 +1,57 @@
+,Description of Tasks Done,Time Spent,Conrad,Jason,Justine,Mawo,Tristan
+Feb-6,Team meeting discussing Developer Tasks and creating a repository,2hrs,✔,✔,✔,✔,At Work
+Feb-16,Setup initial SVN repository and renamed project/namespace to SPA,3hrs,,,✔,,
+Feb-22,Team meeting setting out programming standards and assigning developer tasks,1hr,✔,✔,✔,✔,Out of Town
+Feb-26,"Setup course info gui, modified course gui",1.5 hrs,✔,,,,
+Feb-26,Setup calendar library + create base gui,2hrs,,,,,✔
+Feb-26,Created SPA Architectural Sketch,10mins,,,,✔,
+Feb-26,Created Course class and StubDatabase,1hr,,,✔,,
+Feb-27,Team meerting about finishing up business logic and starting tests,1hr,✔,✔,✔,✔,Abscent
+Feb-27,Created Courses class for the business logic,1hr,,,✔,,
+Feb-27,"Modified course gui, no longer crashes app",45mins,✔,,,,
+Feb-27,Added calendar displaying events for days / unit tests,2hrs,,,,,✔
+Feb-28,"Added Course_list activity, figuring out how it works, and testing different settings ",4hrs,,,✔,,
+Feb-28,"Cleaned up old code, add button works",1hr,✔,,,,
+Feb-28,Delete button works,10mins,✔,,,,
+Feb-28,Duplicate Add and empty delete functionality,15mins,✔,,,,
+Feb-28,Testing the calendar related classes and fixing various classes where appropriate,2hrs,,✔,,,
+Feb-28,"Set edit text to take value of selected course, and implemented update",30mins,,,,,✔
+Feb-28,Created CourseUnitTest for Course class in the domain objects,3hrs,,,,✔,
+Feb-28,Edited one class for programming standards and removed an unused layout  ,10mins,,,✔,,
+Feb-28,Readded calendar view / removed old stub,30mins,,,,,✔
+Feb-28,Added events data unit tests,30mins,,,,,✔
+Mar-1,Added more Test to CourseUnitTest,30mins,,,,✔,
+Mar-1,Added default constructor to Course domain object and updated CourseUnitTest,20mins,,,,✔,
+Mar-1,"Modified Course, CourseUnitTest and EventUnitTest to comply with programming standards",30mins,,,,✔,
+Mar-1,"Tested app on Nexus 7 device, cleaned up, created readme.txt, and electronic hand in",3hrs,,,✔,,
+Mar-1,Added CoursesUnitTest and fixed some programming standards issues.,2hrs,,✔,,,
+Mar-10,Modified multiple classes to comply with programming standards,20mins,,,,✔,
+Mar-12,"Updated and cleaned up build settings, and migrated Unit Tests to JUnit 4.",3hrs,,,✔,,
+Mar-13,"Preping for actual database by creating interface, renaming references from StubDatabase to Database, adding hsqldb.jar, and adding the assets folder",30mins,,,✔,,
+Mar-16,Group meeting discussing the developer tasks for iteration 2,1hr,✔,✔,✔,At Interview,✔
+Mar-20,Add Event UI + callbacks,2hrs,,,,,✔
+Mar-20,SQL Database start,2hrs,,,,,✔
+Mar-21,"Created GradeItem, CourseGradeItems classes. Added methods in stubdb for the new classes",2hrs,✔,,,,
+Mar-21,Hook up Events to sql,1.5hrs,,,,,✔
+Mar-21,Created CourseGradeItemsTest and GradeItemUnit Test. Modified database methods related to CourseGradeItems and GradeItems classes,4hrs,✔,,,,
+Mar-21,"Integrated GradeItem, GradeItemUnitTest, CourseGradeItems, CourseGradeItemsTest with sql",1hr,✔,,,,
+Mar-21,Make tests use stubdb,15mins,,,,,✔
+Mar-22,Integrated Courses with sql and modified multiple files to conform with Iteration 2 requirements,4hrs,,,,✔,
+Mar-22,Modifying the README.txt and Developer tasks for Iteration 2 handin,1hr,,✔,,,
+Mar-22,Fixed corses to actually work with SQL,1hr,,,,,✔
+Mar-22,Refactoring and renaming,3hrs,,,✔,,
+Mar-22,Make course updating persistant,30mins,,,,,✔
+Apr-6,Teem meeting to decide tasks and improvement for Interation 3,1.5hrs,✔,✔,✔,✔,Sick
+Apr-8,Made the CourseList more robust to invalid input and modified tests. Moved course checking inside the business logic instead of in the Activity,3hr,,,✔,,
+Apr-8,"Update the whole project to the programming standards we layed out. I also was testing my desktop, since I was only using the laptop before, which was causing too much grief.",1hr,,✔,,,
+Apr-9,"Created gui for grades, modifed grade db methods, got first button in acceptence test to work, added grade button to course page",2hrs,✔,,,,
+Apr-9,Created a new suite of unit tests for the CourseList,2hr,,,✔,,
+Apr-9,Created Acceptence test for CourseGradeItems,1hr,✔,,,,
+Apr-9,"Set up acceptance testing (robotium, RunAcceptanceTests, AcceptanceTests, EventSchedulingAcceptanceTest); wasn't able to get it to click properly.",1hr,,✔,,,
+Apr-9,Add support for deleting events,1hr,,,,,✔
+Apr-9,Integration tests for calendar,1h,,,,,✔
+Apr-10,Wrote team retrospective review,30min,✔,,,,
+Apr-10,"Integration test for CourseGradeItems, done without Android Studio. I have had lots of troubles working with it, so I finally gave up. That is why I haven't posted as much as I should have here.",30mins,,✔,,,
+Apr-10,Wrote CourseList Acceptance tests,3 hr,,,✔,,
+Apr-10,Troubleshoot broken Acceptance and Integration tests,4 hr,,,✔,,
+Apr-10,Help with fixing tests,45m,,,,,✔

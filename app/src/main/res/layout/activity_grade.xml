@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ListView
+        android:id="@+id/listGrades"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="320dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="58dp"
+        android:layout_marginTop="236dp"
+        android:text="Current Overall Grade"
+        android:textAppearance="@android:style/TextAppearance.Material.Medium" />
+
+    <EditText
+        android:id="@+id/editItemName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="Enter Item Name"
+        android:inputType="text"
+        android:layout_below="@+id/textView3"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/editItemWeight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter Item Weight"
+        android:inputType="number"
+        android:layout_below="@+id/editItemName"
+        android:layout_alignStart="@+id/editItemName" />
+
+    <EditText
+        android:id="@+id/editItemGrade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter Item Grade"
+        android:inputType="number"
+        android:layout_below="@+id/editItemWeight"
+        android:layout_alignStart="@+id/editItemWeight" />
+
+    <Button
+        android:id="@+id/btnAddItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="btnAddItemOnClick"
+        android:text="Submit"
+        android:layout_below="@+id/editItemGrade"
+        android:layout_toStartOf="@+id/btnUpdateItem"
+        android:layout_marginEnd="18dp" />
+
+    <TextView
+        android:id="@+id/currGrade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/editItemName"
+        android:layout_marginStart="40dp"
+        android:layout_toEndOf="@+id/btnAddItem"
+        android:textAppearance="@android:style/TextAppearance.Material.Medium" />
+
+    <Button
+        android:id="@+id/btnUpdateItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editItemGrade"
+        android:layout_centerHorizontal="true"
+        android:onClick="btnUpdateItemOnClick"
+        android:text="Update" />
+
+    <Button
+        android:id="@+id/btnDeleteItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="btnDeleteItemOnClick"
+        android:text="Delete"
+        android:layout_below="@+id/editItemGrade"
+        android:layout_toEndOf="@+id/btnUpdateItem"
+        android:layout_marginStart="18dp" />
+
+</RelativeLayout>
